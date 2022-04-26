@@ -16,12 +16,13 @@
         const input = document.querySelector('input');
         const button = document.querySelector('button');
 
-        function valueCheck() {
+        function valueCheck(e) {
+            e.preventDefault();
             const inputValue = input.value;
-            if(inputValue) {
-                alert('True!')
-            } else {
-                alert('False');
+            localStorage.setItem('username', inputValue);
+            if(localStorage.key) {
+                console.log(localStorage.getItem('username'));
+                console.log(localStorage.length);
             }
         }
 
