@@ -9,11 +9,6 @@ function getClock() {
     clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
-getClock(); //바로 호출하고, 필수!
+// getClock(); //바로 호출하고, 필수!
+getClock();
 setInterval(getClock, 1000); //매초마다 호출
-
-//padStart(num, 'str');
-// const str = "1";
-// console.log(str.padStart(2, '0'));
-
-//String()
