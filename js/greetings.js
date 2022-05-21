@@ -15,6 +15,7 @@ function onLoginSubmit(e) {
     localStorage.setItem(USERNAME_KEY, username);
 
     paintGreetings(username);
+    toDoForm.classList.remove(HIDDEN_CLASSNAME);
 }
 
 function paintGreetings(username) {

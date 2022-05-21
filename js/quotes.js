@@ -1,44 +1,24 @@
 const quotes = [
     {
-        quote: "1",
-        author: "1",
+        quote: "This is a quote,",
+        author: "quote",
     },
     {
-        quote: "2",
-        author: "2",
+        quote: "This is a quote,",
+        author: "quote",
     },
     {
-        quote: "3",
-        author: "3",
+        quote: "This is a quote,",
+        author: "quote",
     },
     {
-        quote: "4",
-        author: "4",
+        quote: "This is a quote,",
+        author: "quote",
     },
     {
-        quote: "5",
-        author: "5",
+        quote: "This is a quote,",
+        author: "quote",
     },
-    {
-        quote: "6",
-        author: "6",
-    },
-    {
-        quote: "7",
-        author: "7",
-    },
-    {
-        quote: "8",
-        author: "8",
-    },
-    {
-        quote: "9",
-        author: "9",
-    },
-    {
-        quote: "10",
-        author: "10",
-    }
 ];
 
 const quote = document.querySelector('#quote span:first-child');
